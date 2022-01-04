@@ -5,20 +5,31 @@ body{
 .flaxble{
     display: flex; margin-bottom: 100px;
 }
-h1{font-weight: 700;}
+h1{font-size:50px;}
 .half-width{
-    width: 70%; padding: 2%;
+    width: 50%; padding: 2%;
 }
 .half-width img{
     width: 85%;
 }
-.button{text-decoration: none; border-radius: 5px; padding: 12px 45px;color: white;
+.button{text-decoration: none; border-radius: 5px; font-weight: 700; padding: 12px 45px;color: white;
     background-image: linear-gradient(purple,tomato);
 }
 #corner-img{
     background-image: url(images/top-banner.png);background-repeat: no-repeat;
 }
 .button1{
-    text-decoration: none;padding: 12px 45px; color: white;background-image: linear-gradient(#7738D8,#FF1F77);border-radius: 7px;
+    text-decoration: none;font-weight: 700; padding: 12px 45px; color: white;background-image: linear-gradient(#7738D8,#FF1F77);border-radius: 7px;
 }
 #rightside-img{background-image: url(images/dream-bg.png);background-repeat: no-repeat;background-position: right;}
+.experience-item{box-shadow: 20px 20px 20px gray;width: 40%; margin-left: 5%; margin-right: 5%;padding: 6px;}
+.hrl{
+    border-top: 2px solid;border-color: lightcoral;
+}
+#border-color1{border-left: 7px solid;border-image: linear-gradient(blue,cyan);border-image-slice: 1;
+}
+#border-color2{
+    border-left: 7px solid;border-image: linear-gradient(purple,tomato);border-image-slice: 1;
+}
+footer{text-align: center;}
+#leftside-img{background-image: url(images/exp-bg.png);background-repeat: no-repeat;background-position: left;padding: 15px;}
